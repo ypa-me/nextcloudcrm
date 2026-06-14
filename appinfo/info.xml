@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>nextcloudcrm</id>
+	<name>Nextcloud C R M</name>
+	<summary>A CRM app for nextcloud</summary>
+	<description>This is a simple CRM app for nextcloud.</description>
+	<version>1.0.0</version>
+	<licence>AGPL-3.0-or-later</licence>
+	<author mail="yashvin.persand@ypa.one" homepage="https://ypa.one">Yashvin Persand</author>
+	<namespace>NextcloudCRM</namespace>
+	<category>tools</category>
+	<bugs>https://github.com/ypa-me/Nextcloud-CRM</bugs>
+	<dependencies>
+		<nextcloud min-version="31" max-version="33"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>nextcloudcrm</id>
+			<name>Nextcloud C R M</name>
+			<route>nextcloudcrm.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
